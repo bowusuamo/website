@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+    
+<div class="login-box">
+  <h2>Login</h2>
+  <form action="/login" method="post">
+    <div class="user-box">
+      <input name="username" placeholder="Username" type="text">
+    </div>
+    <div class="user-box">
+      <input name="password" placeholder="Password" type="password">
+    </div>
+    <a href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <button class="loginButton" style="color: white">Log In</button>
+    </a>  
+  </form>
+</div>
+{% endblock %}

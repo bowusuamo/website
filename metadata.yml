@@ -1,0 +1,12 @@
+---
+:id: 103897989
+:submitters:
+- :name: Benista Owusu-Amo
+  :email: bowusuamo@college.harvard.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2021-12-07 16:27:27.966696000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2021-12-07 08:27:27.966696000 Z
+:status: processed
+:score: 20.0
